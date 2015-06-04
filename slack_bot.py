@@ -33,5 +33,6 @@ class Slack(object):
 
 if __name__ == "__main__":
 
-    slack = Slack("xoxp-4672029606-4672029610-4799216769-4ab2f6")
+    slack = Slack("TOKEN")
     slack.post_message_to_channel("general", "テストととととと")
+
